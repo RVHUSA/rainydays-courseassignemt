@@ -22,9 +22,13 @@ header a {
 }
 
 .signup {
-    background-color: #d9d9d9;
+    background-color: #F4F3F3
     color: #000;
     text-align: center;
+}
+
+.cta {
+    color: #000;
 }
 
 .cta-su {
@@ -32,7 +36,14 @@ header a {
     background-color: #203E5F;
 }
 
-
+ /* Home page */
+ .welcome {
+    background-image: url("../images/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+    min-height: 100vh
+ }
 
 
 
