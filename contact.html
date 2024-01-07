@@ -12,6 +12,9 @@
     </head>
     <body>
         <header>
+            <section class="delivery">
+                <h1>Free delivery on orders over €40</h1>
+            </section>
             <a href="index.html" class="logo">RainyDays</a>
             <nav>
                 <ul>
@@ -23,6 +26,39 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <section class="pushing-tcz">
+                <h2>Pushing the comfort zone</h2>
+            </section>
         </header>
     </body>
+        <main>
+            <h1>Contact us</h1>
+                <p>You can find answers to the most common questions here. If you still cannot find what you are looking for, please feel free to contact us by e-mail, chat, phone or subit a request.</p>
+            <h2>Opening hours</h2>
+                <p>Monday - Friday from 10 AM - 8 PM</p>
+                <p>Saturday from 10 AM - 6 PM</p>
+            <h2>E-mail</h2>
+                <p>customerservice@rainydays.com</p>
+            <h2>Telephone</h2>
+                <p>+47 83 46 46 46</p>
+            <h2>Submit a request</h2>
+                <form action="">
+                <label for="name">Full name</label>
+                <input type="text" name="name" id="name" class="form_input" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" class="form_input" required>
+                <label for="ordernr">Order number</label>
+                <input type="ordernr" name="ordernr" id="ordernr" class="form_input">
+                <label for="category">Select category</label>
+                <select id="category" name="category"> 
+                    <option value="Order & status">Order & status</option>
+                    <option value="Return & exchange">Return & exchange</option>
+                    <option value="Product information">Product information</option>
+                    <option value="General request">General request</option>
+                </select>
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            <input type="submit" value="submit" class="cta-submit">
+            </form>
+        </main>
 </html>

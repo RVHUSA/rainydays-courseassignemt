@@ -2,7 +2,7 @@ h1, h2, body, .logo {
     font-family: "Hind Madurai", Verdana, Geneva, Tahoma, sans-serif
 }
 
-.delivery, footer {
+.delivery, footer, .pushing-tcz {
    background-color: #203E5F;
    color: #fff;
    text-align: center;
@@ -15,6 +15,13 @@ header a {
     list-style-type: none;
 }
 
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+}
 .text {
     background-color: #fff;
     color: #000;
@@ -29,25 +36,67 @@ header a {
 
 .cta {
     color: #000;
+    border-color: #000;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 4px 20px; 
+    border-radius: 2em;
+    border-style: solid;
 }
 
 .cta-su {
     color: #fff;
     background-color: #203E5F;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 5px 200px; 
 }
 
  /* Home page */
  .welcome {
     background-image: url("../images/header.png");
     background-repeat: no-repeat;
+    min-height: 500px;
     background-size: cover;
-    background-position: center
-    min-height: 100vh
+    background-position: center;
  }
 
- nav a {
-    display: inline-block;
- }
+  /* Home page */
+  .news {
+    background-image: url("../images/news.png");
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+.women img {
+    max-width: 650px;
+}
+
+.men img {
+    float: left;
+    margin-right: 1rem;
+    max-width: 650px;
+}
+
+.adventure img {
+    float: left;
+    margin-right: 1rem;
+    max-width: 350px;
+}
+
+section::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+
+
 
 
 
