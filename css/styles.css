@@ -45,5 +45,9 @@ header a {
     min-height: 100vh
  }
 
+ nav a {
+    display: inline-block;
+ }
+
 
 
