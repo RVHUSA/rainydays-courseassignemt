@@ -1,6 +1,15 @@
 h1, h2, body, .logo {
-    font-family: "Hind Madurai", Verdana, Geneva, Tahoma, sans-serif
+    font-family: "Hind Madurai", "Poppins", Verdana, Geneva, Tahoma, sans-serif
 }
+
+.welcome h1, .text h2, .cta, .cta-su {
+    font-family: "Poppins", "Hind Madurai", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.delivery h1 {
+    font-size: 1,315rem;
+}
+
 
 .delivery, footer, .pushing-tcz {
    background-color: #203E5F;
@@ -57,10 +66,20 @@ nav li {
  .welcome {
     background-image: url("../images/header.png");
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 900px;
     background-size: cover;
     background-position: center;
+    font-weight: bold;
  }
+
+ .welcome_content {
+    position: absolute;
+    top: 275px;
+    left: 75px;
+    right: 500px;
+    font-weight: bold;
+    font-size: 2,5rem
+}
 
   /* Home page */
   .news {
@@ -73,13 +92,13 @@ nav li {
 
   
 .women img {
-    max-width: 650px;
+    max-width: 670px;
 }
 
 .men img {
     float: left;
-    margin-right: 1rem;
-    max-width: 650px;
+    margin-right: 0,1rem;
+    max-width: 670px;
 }
 
 .adventure img {
