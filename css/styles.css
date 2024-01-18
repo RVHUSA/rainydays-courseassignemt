@@ -6,10 +6,24 @@ h1, h2, body, .logo, textarea, input {
     font-family: "Poppins", "Hind Madurai", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 .delivery, footer, .pushing-tcz {
    background-color: #203E5F;
    color: #fff;
    text-align: center;
+}
+
+.delivery h1 {
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: bolder;
+    margin: 0;
 }
 
 header a {
@@ -19,13 +33,34 @@ header a {
     list-style-type: none;
 }
 
+.logo {
+    float: left;
+    margin: 15px 0px 15px 50px;
+}
+
+header img {
+    max-width: 120px;
+}
+
+nav {
+    float: center;
+}
+
 nav ul {
-    padding: 0px;
+    margin-left: 160px;
+    list-style: none;
 }
 
 nav li {
     display: inline-block;
+    margin: 15px 0px 15px 50px;
+    font-weight: bold;
 }
+
+nav a:hover {
+    color: orange;
+}
+
 .text {
     background-color: #fff;
     color: #000;
@@ -55,6 +90,14 @@ nav li {
     font-size: 1em;
     text-transform: uppercase;
     padding: 5px 200px; 
+}
+
+.text {
+    margin: 50px;
+}
+
+.text h1 {
+    font-weight: 900;
 }
 
  /* Home page */
@@ -114,7 +157,7 @@ nav li {
     padding: 15px;
 }
 
-h2, .contact-text h1  {
+.contact-text h1, .contact-text h2 {
     margin: 20px 0px 2px;
 }
 
@@ -126,7 +169,7 @@ h2, .contact-text h1  {
     text-decoration: underline;
 }
 
- .contact {
+.contact {
     max-width: 700px;
     margin-left: 20px;
 }
