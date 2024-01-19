@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is RainyDays, outdoor clothing  for pushing the comfort zone">
+        <title>RainyDays | Watherproof Storm Jacket</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="delivery">
+                <h1>Free delivery on orders over €40</h1>
+            </div>
+            <div>
+                <img src="images/Logo.png" alt="Rainydays logo" class="logo">
+                    <nav>
+                        <ul>
+                            <li><a href="men.html">Men</a></li>
+                            <li><a href="women.html">Women</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="about-us.html">About us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+        <main class="product-specific">
+            <section>
+                <img src="../images/jacket2.png" alt="Watherproof Storm Jacket" class="product_image">
+            </section>
+            <section class="product-specific_details">
+                <h1>Jackets / Men’s Waterproof Storm Jacket</h1>
+                <h2>Watherproof Storm Jacket</h2>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p>128 Reviews</p>
+                <p>€120</p>
+                <p>COLOR: 879 SHADOW GREY</p>
+                <p>Size</p>
+                <a href="../checkout.html" class="cta">add to bag</a>
+            </section>
+        </main>
+
+
+
+
+</div>
+<div class="jackets">
+    <a href="products/wp-stormjacket"> <img src="images/jacket2.png" alt="Watherproof Storm Jacket"></a>
+<h2>Watherproof Storm Jacket</h2>
+<p>€120</p>
+</div>
