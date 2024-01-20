@@ -35,7 +35,7 @@ header a {
 
 .logo {
     float: left;
-    margin: 0px 0px 15px 50px;
+    margin: 15px 0px 15px 50px;
 }
 
 nav {
@@ -67,6 +67,7 @@ nav a:hover {
     background-color: #fff;
     color: #000;
     text-align: center;
+    margin: 50px;
 }
 
 .signup {
@@ -99,12 +100,14 @@ nav a:hover {
     padding: 5px 200px; 
 }
 
-.text {
-    margin: 50px;
-}
-
 .text h1 {
     font-weight: 900;
+}
+
+.pushing-tcz h2,
+.welcome h1,
+.text h2 {
+    text-transform: uppercase;
 }
 
  /* Home page */
@@ -231,7 +234,7 @@ textarea {
 .products-header {
     background-image: url("../images/news-product.png");
     background-repeat: no-repeat;
-    min-height: 450px;
+    min-height: 500px;
     background-size: cover;
     background-position: center;
 }
@@ -243,18 +246,14 @@ textarea {
     left: 75px;
     right: 500px;
     font-weight: bold;
-    font-size: 2,5rem
-}
-
-.products {
-    max-width: 1000px;
-    margin: auto 20px;
+    font-size: xx-large;
 }
 
 .jacket-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    margin: 120px 60px 120px 60px;
 }
 
 .jackets img {
@@ -269,12 +268,11 @@ textarea {
     grid-template-columns: auto auto auto;
 }
 
- .products h3, .products p, .products h2 {
+ .jackets h3, .jackets p {
     grid-column: 1;
     font-size: 0.9em;
     margin: 5px;
  }
-
 
 
 
