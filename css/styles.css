@@ -92,6 +92,18 @@ nav a:hover {
     margin: 10px;
 }
 
+.cta:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 4px 20px; 
+    border-radius: 2em;
+    border-style: solid;
+}
+
 .cta-su {
     color: #fff;
     background-color: #203E5F;
@@ -111,22 +123,24 @@ nav a:hover {
 }
 
  /* Home page */
- .welcome {
+.welcome {
     background-image: url("../images/header.png");
     background-repeat: no-repeat;
-    min-height: 900px;
+    min-height: 750px;
     background-size: cover;
-    background-position: center;
     font-weight: bold;
  }
 
- .welcome_content {
+.welcome_content {
     position: absolute;
-    top: 275px;
+    top: 225px;
     left: 75px;
     right: 500px;
+}
+
+.welcome_content h1 {
+    font-size: 2.5rem;
     font-weight: bold;
-    font-size: 2,5rem
 }
 
 .welcome-text {
@@ -152,9 +166,25 @@ header img {
 .news {
     background-image: url("../images/news.png");
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 700px;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.news h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin: 150px 0px 20px 0px;
+    padding: 100px 50px 0px 50px;
+}
+
+.news a.cta {
+    margin-left: 50px;
+}
+
+.news a.cta.cta-w {
+    margin-left: 16px;
 }
 
 .adventure img {
@@ -188,8 +218,24 @@ input, select, textarea {
     padding: 15px;
 }
 
-.contact-text h1, .contact-text h2 {
+.contact-text h1, 
+.contact-text h2 {
     margin: 20px 0px 2px;
+    font-weight: bolder
+}
+
+.contact-text h1 {
+    text-transform: uppercase;
+}
+
+.contact-form h2,
+.contact-text h1 {
+    padding: 30px 0px 0px 0px;
+}
+
+.contact-text h2,
+.contact-form h2 {
+    font-size: 1.1rem;
 }
 
 .contact-text p {
@@ -210,7 +256,7 @@ input, select, textarea {
     flex-direction: column;
 }
 
-.cta-submit {
+.cta-black {
     color: #fff;
     background-color: black;
     font-size: 1em;
@@ -218,8 +264,8 @@ input, select, textarea {
     padding: 15px 318px; 
 }
 
-.cta-submit:hover {
-    background-color: #151515
+.cta-black:hover {
+    background-color: #2a2a2a
 }
 
 textarea::placeholder {
@@ -256,7 +302,8 @@ textarea {
     margin: 120px 60px 120px 60px;
 }
 
-.jackets img {
+.jackets img,
+.product_image {
     width: 300px;
     height: auto;
     grid-column: -1/1;
@@ -274,6 +321,70 @@ textarea {
     margin: 5px;
  }
 
+
+
+
+
+
+/* Wp-Storm Jacket Page */
+
+.color1,
+.color2,
+.color3 {
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+
+}
+
+.color1 {
+    background: #6C686D;
+}
+
+.color2 {
+    background: #002868;
+}
+
+.color3 {
+    background: #000;
+}
+
+.cta-size {
+    background-color: #F5F5F5;
+    color: #000;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+    max-width: 40px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.product-info h2 {
+    text-transform: uppercase;
+}
+
+.size {
+    display: flex;
+}
+
+.cta-product {
+    text-decoration: none;
+    padding: 15px 160px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+              .fill-icons .material-symbols-outlined {
+    font-variation-settings: fill 1;
+    font-weight: 400;
+}
 
 
 

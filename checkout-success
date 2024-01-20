@@ -18,7 +18,9 @@
                 <h1>Free delivery on orders over €40</h1>
             </div>
             <div>
-                <img src="images/Logo.png" alt="Rainydays logo" class="logo">
+                <a href="index.html">
+                    <img src="images/Logo.png" alt="Rainydays logo" class="logo">
+                </a>
             </div>
             <nav>
                 <ul>
