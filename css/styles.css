@@ -13,7 +13,7 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
-.delivery, footer, .pushing-tcz {
+.delivery, .pushing-tcz {
     background-color: #203E5F;
     color: #fff;
     text-align: center;
@@ -210,6 +210,10 @@ header img {
     margin: 100px;
 }
 
+.signup {
+    margin-bottom: 8rem;
+}
+
  /* Contact page */
 input, select, textarea {
     border: 1px solid #d9d9d9;
@@ -254,6 +258,7 @@ input, select, textarea {
 .contact-form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
 }
 
 .cta-black {
@@ -380,11 +385,76 @@ textarea {
 
 
 
+/* Footer */
 
-              .fill-icons .material-symbols-outlined {
-    font-variation-settings: fill 1;
-    font-weight: 400;
+footer {
+    background-color: #203E5F;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    color: #fff;
 }
+
+.footer-c {
+    height: 30vh;
+    display: flex;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.footer-heading h2 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color: orange;
+}
+
+.ftext4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.ftext4:nth-of-type(1) {
+    flex-shrink: 3;
+}
+
+.ftext4 h2 {
+    width: 100%;
+}
+
+.footer-heading img {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+}
+
+.bottom1 {
+    text-align: center;
+    margin: 0 500px; 
+}
+
+.footer-b {
+    display: flex;
+    margin-top: 30px;
+}
+
 
 
 
