@@ -320,11 +320,16 @@ textarea {
     grid-template-columns: auto auto auto;
 }
 
- .jackets h3, .jackets p {
+.jackets p {
     grid-column: 1;
-    font-size: 0.9em;
-    margin: 5px;
- }
+    font-size: 1.4em;
+    margin: 0px 10px;
+}
+
+.jackets h2 {
+    margin-bottom: 0px;
+    margin: 0px 10px;
+}
 
 
 
