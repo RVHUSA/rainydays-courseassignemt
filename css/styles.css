@@ -394,7 +394,7 @@ textarea {
 
 footer {
     background-color: #203E5F;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-top: 1rem;
     color: #fff;
 }
@@ -451,8 +451,13 @@ footer {
 }
 
 .bottom1 {
+    padding-top: 50px;
     text-align: center;
     margin: 0 500px; 
+}
+
+.bottom2 {
+    padding-top: 50px;
 }
 
 .footer-b {
