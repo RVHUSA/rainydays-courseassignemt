@@ -67,7 +67,7 @@ nav a:hover {
     background-color: #fff;
     color: #000;
     text-align: center;
-    margin: 50px;
+    margin: 60px;
 }
 
 .cta {
@@ -106,8 +106,15 @@ nav a:hover {
     padding: 5px 200px; 
 }
 
-.text h1 {
-    font-weight: 900;
+.text h2 {
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+.text p {
+    font-size: 1.3rem;
+    margin-top: 4px;
 }
 
 .pushing-tcz h2,
@@ -175,7 +182,7 @@ header img {
 .news h3 {
     font-weight: bold;
     font-size: 1.7rem;
-    margin: 150px 0px 20px 0px;
+    margin: 130px 0px 20px 0px;
     padding: 100px 50px 0px 50px;
 }
 
