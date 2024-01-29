@@ -70,12 +70,6 @@ nav a:hover {
     margin: 50px;
 }
 
-.signup {
-    background-color: #F4F3F3
-    color: #000;
-    text-align: center;
-}
-
 .cta {
     color: #000;
     border-color: #000;
@@ -118,7 +112,8 @@ nav a:hover {
 
 .pushing-tcz h2,
 .welcome h1,
-.text h2 {
+.text h2,
+.adventure h4 {
     text-transform: uppercase;
 }
 
@@ -126,7 +121,7 @@ nav a:hover {
 .welcome {
     background-image: url("../images/header.png");
     background-repeat: no-repeat;
-    min-height: 750px;
+    min-height: 800px;
     background-size: cover;
     font-weight: bold;
  }
@@ -143,7 +138,8 @@ nav a:hover {
     font-weight: bold;
 }
 
-.welcome-text {
+.welcome-text,
+.order-text {
     display: block;
 }
 
@@ -151,16 +147,20 @@ header img {
     max-width: 120px;
 }
 
-.women img,
-.men img {
-    max-width: 700px;
-    margin: 0px 
+.mw img,
+.mw img {
+    max-width: 710px;
+    margin: 0px 5px 20px 0px;
 }
 
 .gender {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.mw {
+    display: block;
 }
 
 .news {
@@ -189,12 +189,12 @@ header img {
 
 .adventure img {
     float: left;
-    margin-right: 1rem;
-    max-width: 350px;
+    max-width: 425px;
+    margin-bottom: 10px;
 }
 
 .adventure {
-    margin: 100px 15px 100px 30px;
+    margin: 200px 0px 100px 30px;
 }
 
 .explore h4 {
@@ -207,12 +207,18 @@ header img {
 
 .explore h3 {
     position: absolute;
-    margin: 100px;
+    margin: 140px 30px;
+    font-size: 1.5rem;
 }
 
-.signup {
-    margin-bottom: 8rem;
+.sign-up {
+    color: #000;
+    text-align: center;
+    background: #F4F3F3;
+    padding-bottom: 9rem;
+    padding-top: 9rem;
 }
+
 
  /* Contact page */
 input, select, textarea {
@@ -407,7 +413,7 @@ footer {
 .footer-heading {
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
+    margin-right: 5rem;
     color: #fff;
     margin-left: 50px;
 }
@@ -464,6 +470,41 @@ footer {
     display: flex;
     margin-top: 30px;
 }
+
+/* Checkout Success Page */
+
+.checkout-success {
+    text-align: center;
+    padding: 40px;
+}
+
+.checkout-success h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.checkout-success h2 {
+    margin: 5px 0px 30px 0px;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.checkout-success p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.checkout-success .material-symbols-outlined {
+    font-size: 7rem;
+}
+
+.cta-small {
+    padding: 10px 10px; 
+    border-radius: 7px;
+    text-decoration: none;
+}
+
 
 
 
