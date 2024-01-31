@@ -226,6 +226,39 @@ header img {
     padding-top: 9rem;
 }
 
+.su-text {
+    background-color: #F4F3F3;
+}
+
+.su-text,
+.sign-up form {
+    max-width: 600px;
+    text-align: left;
+    margin: auto;
+}
+
+.sign-up input {
+    border-radius: 0px;
+    padding: 8px 200px
+}
+
+.sign-up .cta-su {
+    padding: 8px 225px
+}
+
+.sign-up h4 {
+    margin-bottom: 0px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.su-text p {
+    margin-top: 2px;
+}
+
+.sign-up p {
+    margin-bottom: 0px;
+}
 
  /* Contact page */
 input, select, textarea {
