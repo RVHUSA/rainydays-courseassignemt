@@ -126,7 +126,7 @@ nav a:hover {
 
  /* Home page */
 .welcome {
-    background-image: url("../images/header.png");
+    background-image: url("../images/header1.png");
     background-repeat: no-repeat;
     min-height: 800px;
     background-size: cover;
@@ -381,7 +381,6 @@ textarea {
 text-decoration: none;
 color: #000;
 }
-
 
 
 
