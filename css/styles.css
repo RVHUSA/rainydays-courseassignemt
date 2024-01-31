@@ -377,7 +377,10 @@ textarea {
     margin: 0px 10px;
 }
 
-
+.jacket-list a {
+text-decoration: none;
+color: #000;
+}
 
 
 
