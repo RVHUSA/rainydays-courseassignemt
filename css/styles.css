@@ -194,6 +194,10 @@ header img {
     margin-left: 16px;
 }
 
+.mw .cta {
+    margin: 0px 0px 0px 300px;
+}
+
 .adventure img {
     float: left;
     max-width: 425px;
