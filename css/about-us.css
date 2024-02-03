@@ -1,0 +1,31 @@
+.content {
+    display: grid;
+    margin: 60px;
+    grid-gap: 5em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-1 {
+    max-width: 580px;
+    font-size: 1.1rem;
+}
+
+.content-2 img {
+    max-height: 500px;
+    border-radius: 15px;
+}
+
+.content-3 img {
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+.content-4 {
+    max-width: 445px;
+    font-size: 1.1rem;
+}
+.content-1 p {
+    padding-bottom: 10px;
+}
+
+

@@ -38,6 +38,10 @@ header a {
     margin: 15px 0px 15px 50px;
 }
 
+header img {
+    max-width: 120px;
+}
+
 nav {
     float: center;
 }
@@ -63,13 +67,6 @@ nav a:hover {
     color: orange;
 }
 
-.text {
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-    margin: 60px;
-}
-
 .cta {
     color: #000;
     border-color: #000;
@@ -79,11 +76,6 @@ nav a:hover {
     padding: 4px 20px; 
     border-radius: 2em;
     border-style: solid;
-}
-
-.news .cta {
-    float: left;
-    margin: 10px;
 }
 
 .cta:hover {
@@ -106,344 +98,18 @@ nav a:hover {
     padding: 5px 200px; 
 }
 
-.text h2 {
-    font-weight: bolder;
-    font-size: 2em;
-    margin-bottom: 0px;
-}
-
-.text p {
-    font-size: 1.3rem;
-    margin-top: 4px;
-}
-
-.pushing-tcz h2,
-.welcome h1,
-.text h2,
-.adventure h4 {
-    text-transform: uppercase;
-}
-
- /* Home page */
-.welcome {
-    background-image: url("../images/header1.png");
-    background-repeat: no-repeat;
-    min-height: 800px;
-    background-size: cover;
-    font-weight: bold;
- }
-
-.welcome_content {
-    position: absolute;
-    top: 225px;
-    left: 75px;
-    right: 500px;
-}
-
-.welcome_content h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.welcome-text,
-.order-text {
-    display: block;
-}
-
-header img {
-    max-width: 120px;
-}
-
-.mw img,
-.mw img {
-    max-width: 710px;
-    margin: 0px 5px 20px 0px;
-}
-
-.gender {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.mw {
-    display: block;
-}
-
-.news {
-    background-image: url("../images/news.png");
-    background-repeat: no-repeat;
-    min-height: 700px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.news h3 {
-    font-weight: bold;
-    font-size: 1.7rem;
-    margin: 130px 0px 20px 0px;
-    padding: 100px 50px 0px 50px;
-}
-
-.news a.cta {
-    margin-left: 50px;
-}
-
-.news a.cta.cta-w {
-    margin-left: 16px;
-}
-
-.mw .cta {
-    margin: 0px 0px 0px 300px;
-}
-
-.adventure img {
-    float: left;
-    max-width: 425px;
-    margin-bottom: 10px;
-}
-
-.adventure {
-    margin: 200px 0px 100px 40px;
-}
-
-.explore h4 {
-    text-align: center;
-}
-
-.explore {
-    display: flex;
-}
-
-.explore h3 {
-    position: absolute;
-    margin: 140px 40px;
-    font-size: 1.5rem;
-}
-
-.sign-up {
-    color: #000;
-    text-align: center;
-    background: #F4F3F3;
-    padding-bottom: 9rem;
-    padding-top: 9rem;
-}
-
-.su-text {
-    background-color: #F4F3F3;
-}
-
-.su-text,
-.sign-up form {
-    max-width: 600px;
-    text-align: left;
-    margin: auto;
+.sign-up .cta-su {
+    padding: 8px 225px;
 }
 
 .sign-up input {
     border-radius: 0px;
-    padding: 8px 200px
+    padding: 8px 200px;
+    margin: 0px 0px 8px;
 }
-
-.sign-up .cta-su {
-    padding: 8px 225px
-}
-
-.sign-up h4 {
-    margin-bottom: 0px;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.su-text p {
-    margin-top: 2px;
-}
-
-.sign-up p {
-    margin-bottom: 0px;
-}
-
- /* Contact page */
-input, select, textarea {
-    border: 1px solid #d9d9d9;
-    border-radius: 7px;
-    margin: 10px 10px 10px 0px;
-    padding: 15px;
-}
-
-.contact-text h1, 
-.contact-text h2 {
-    margin: 20px 0px 2px;
-    font-weight: bolder
-}
-
-.contact-text h1 {
-    text-transform: uppercase;
-}
-
-.contact-form h2,
-.contact-text h1 {
-    padding: 30px 0px 0px 0px;
-}
-
-.contact-text h2,
-.contact-form h2 {
-    font-size: 1.1rem;
-}
-
-.contact-text p {
-    margin: 5px 0px 5px;
-}
-
-.mail {
-    text-decoration: underline;
-}
-
-.contact {
-    max-width: 700px;
-    margin-left: 20px;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 60px;
-}
-
-.cta-black {
-    color: #fff;
-    background-color: black;
-    font-size: 1em;
-    text-transform: uppercase;
-    padding: 15px 318px; 
-}
-
-.cta-black:hover {
-    background-color: #2a2a2a
-}
-
-textarea::placeholder {
-    font-family: "Hind Madurai", "Poppins", "Arial";
-}
-
-textarea {
-    padding: 15px 15px 120px 15px;
-}
-
-/* Men Page */
-.products-header {
-    background-image: url("../images/news-product.png");
-    background-repeat: no-repeat;
-    min-height: 500px;
-    background-size: cover;
-    background-position: center;
-}
-
-.products-header h1 {
-    color: #fff;
-    position: absolute;
-    top: 275px;
-    left: 75px;
-    right: 500px;
-    font-weight: bold;
-    font-size: xx-large;
-}
-
-.jacket-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    margin: 120px 60px 120px 60px;
-}
-
-.jackets img,
-.product_image {
-    width: 300px;
-    height: auto;
-    grid-column: -1/1;
-    align-items: center;
-    background-color: #F4F3F3;
-    margin: 10px;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.jackets p {
-    grid-column: 1;
-    font-size: 1.4em;
-    margin: 0px 10px;
-}
-
-.jackets h2 {
-    margin-bottom: 0px;
-    margin: 0px 10px;
-}
-
-.jacket-list a {
-text-decoration: none;
-color: #000;
-}
-
-
-
-/* Wp-Storm Jacket Page */
-
-.color1,
-.color2,
-.color3 {
-    border-radius: 25px;
-    width: 30px;
-    height: 30px;
-    list-style: none;
-
-}
-
-.color1 {
-    background: #6C686D;
-}
-
-.color2 {
-    background: #002868;
-}
-
-.color3 {
-    background: #000;
-}
-
-.cta-size {
-    background-color: #F5F5F5;
-    color: #000;
-    font-size: 1em;
-    text-transform: uppercase;
-    border-radius: 0.5em;
-    max-width: 40px;
-    margin: 20px;
-    text-align: center;
-    padding: 10px 15px;
-}
-
-.product-info h2 {
-    text-transform: uppercase;
-}
-
-.size {
-    display: flex;
-}
-
-.cta-product {
-    text-decoration: none;
-    padding: 15px 160px;
-    border-radius: 8px;
-}
-
-
-
 
 
 /* Footer */
-
 footer {
     background-color: #203E5F;
     padding-bottom: 1rem;
@@ -517,39 +183,7 @@ footer {
     margin-top: 30px;
 }
 
-/* Checkout Success Page */
 
-.checkout-success {
-    text-align: center;
-    padding: 40px;
-}
-
-.checkout-success h1 {
-    text-transform: uppercase;
-    font-weight: bolder;
-    margin-bottom: 0px;
-}
-
-.checkout-success h2 {
-    margin: 5px 0px 30px 0px;
-    font-size: 1.4rem;
-    font-weight: 200;
-}
-
-.checkout-success p {
-    font-size: 1.1rem;
-    margin-bottom: 40px;
-}
-
-.checkout-success .material-symbols-outlined {
-    font-size: 7rem;
-}
-
-.cta-small {
-    padding: 10px 10px; 
-    border-radius: 7px;
-    text-decoration: none;
-}
 
 
 
