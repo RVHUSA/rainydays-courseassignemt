@@ -1,7 +1,7 @@
 .content {
     display: grid;
     margin: 60px;
-    grid-gap: 5em;
+    grid-gap: 6em;
     grid-template-columns: 1fr 1fr;
 }
 
