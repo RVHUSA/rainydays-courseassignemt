@@ -108,6 +108,9 @@ nav a:hover {
     margin: 0px 0px 8px;
 }
 
+textarea::placeholder {
+    font-family: "Hind Madurai", "Poppins", "Arial";
+}
 
 /* Footer */
 footer {
@@ -182,6 +185,7 @@ footer {
     display: flex;
     margin-top: 30px;
 }
+
 
 
 

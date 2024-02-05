@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/checkout.css">
+        <link rel="stylesheet" href="css/checkout2.css">
         <link rel="stylesheet" href="css/media.css">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -44,9 +44,9 @@
     </body>
         <main class="checkout">
                 <h1>Checkout</h1>
+            <form method="post">
             <section class="checkout-form">
                 <h2>Shipping Information</h2>
-            <form method="post">
                 <label for="name"></label>
                 <input type="text" name="name" id="name" class="form_input" required placeholder="First name">
                 <label for="name"></label>
@@ -67,6 +67,24 @@
             </section>
             <input type="submit" value="Continue to shipping" class="cta-black">
             </form>
+            <section class="next">
+                <form>
+                    <div class="shipping">
+                        <label>
+                        <select id="shipping" name="shipping">
+                            <option value="0">Shipping</option>
+                        </select>
+                        </label>
+                    </div>
+                    <div class="payment">
+                        <label>
+                        <select id="payment" name="payment">
+                            <option value="0">Payment</option>
+                        </select>
+                        </label>
+                    </div>
+                </form>
+            </section>
             <section class="order-summary">
                 <h2>Order summary</h2>
                 <h3>Subtotal</h3>

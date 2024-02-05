@@ -57,10 +57,6 @@ input, select, textarea {
     background-color: #2a2a2a
 }
 
-textarea::placeholder {
-    font-family: "Hind Madurai", "Poppins", "Arial";
-}
-
 textarea {
     padding: 15px 15px 120px 15px;
 }

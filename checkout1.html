@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="This is RainyDays contact page">
-        <title>RainyDays | Contact</title>
+        <title>RainyDays | Checkout</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/checkout1.css">
         <link rel="stylesheet" href="css/media.css">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -42,39 +42,73 @@
             </section>
         </header>
     </body>
-        <main class="contact">
-            <section class="contact-text">
-                <h1>Contact us</h1>
-                    <p>You can find answers to the most common questions <span style="text-decoration: underline;">here.</span> If you still cannot find what you are looking for, please feel free to contact us by e-mail, chat, phone or subit a request.</p>
-                <h2>Opening hours</h2>
-                    <p>Monday - Friday from 10 AM - 8 PM</p>
-                    <p>Saturday from 10 AM - 6 PM</p>
-                <h2>E-mail</h2>
-                    <p class="mail">customerservice@rainydays.com</p>
-                <h2>Telephone</h2>
-                    <p>+47 83 46 46 46</p>
-            </section>
+        <main class="checkout">
+                <h1>Checkout</h1>
             <form method="post">
-            <section class="contact-form">
-                <h2>Submit a request</h2>
+            <section class="checkout-form">
+                <h2>Shipping Information</h2>
                 <label for="name"></label>
-                <input type="text" name="name" id="name" class="form_input" required placeholder="Full name">
+                <input type="text" name="name" id="name" class="form_input" required placeholder="First name">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" class="form_input" required placeholder="Last name">
+                <label for="adress"></label>
+                <input type="text" name="adress" id="adress" class="form_input" required placeholder="Adress Line">
+                <label for="postalcode"></label>
+                <input type="text" name="postalcode" id="postalcode" class="form_input" required placeholder="Postal Code">
+                <label for="city"></label>
+                <input type="text" name="city" id="city" class="form_input" required placeholder="City/Town">
+                <label for="country"></label>
+                <input type="text" name="country" id="country" class="form_input" required placeholder="Country">
+                <h2>Contact Information</h2>
                 <label for="email"></label>
                 <input type="email" name="email" id="email" class="form_input" required placeholder="E-mail">
-                <label for="ordernr"></label>
-                <input type="text" name="ordernumber" id="ordernumber" class="form_input" placeholder="Order number (optional)">
-                <label for="category"></label>
-                <select id="category" name="category">
-                    <option value="Order & status">Order & status</option>
-                    <option value="Return & exchange">Return & exchange</option>
-                    <option value="Product information">Product information</option>
-                    <option value="General request">General request</option>
-                </select>
-                <label for="message"></label>
-                <textarea placeholder="Message" id="message" name="message"></textarea>
+                <label for="phonenr"></label>
+                <input type="text" name="phonenr" id="phonenr" class="form_input" placeholder="Phone Number">
             </section>
-            <input type="submit" value="submit" class="cta-black">
+            <a href="../checkout-success.html" class="cta-black">Add to bag</a>
             </form>
+            <section class="next">
+                <form>
+                    <div class="shipping">
+                        <label>
+                        <select id="shipping" name="shipping">
+                            <option value="0">Shipping</option>
+                        </select>
+                        </label>
+                    </div>
+                    <div class="payment">
+                        <label>
+                        <select id="payment" name="payment">
+                            <option value="0">Payment</option>
+                        </select>
+                        </label>
+                    </div>
+                </form>
+            </section>
+            <section class="order-summary">
+                <div class="os-1">
+                    <h2>Order summary</h2>
+                    <h3>Subtotal</h3>
+                    <h3>Delivery/Shipping</h3> 
+                    <h4>Estimated delivery in 2-6 days</h4>
+                    <h3>Total</h3>
+                </div>
+                <div class="os-2">
+                    <p>€120</p>
+                    <p>Free</p>
+                    <p>€120</p>
+                </div>
+                <div class="os-3">
+                    <img src="/images/jacket2.png" alt="Watherproof Storm Jacket">
+                </div>
+                <div class="os-4">
+                    <h2>Watherproof Storm Jacket</h2>
+                    <p>€120</p>
+                    <p>Size: XL / Quantity: 1</p>
+                    <p>Color: Shadow Grey</p>
+                </div>
+                <p>Edit cart</p>
+            </section>
         </main>
         <footer>
             <div class="footer-c">
