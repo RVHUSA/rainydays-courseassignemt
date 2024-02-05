@@ -43,9 +43,9 @@
         </header>
     </body>
         <main class="checkout">
-                <h1>Checkout</h1>
             <form method="post">
             <section class="checkout-form">
+                <h1>Checkout</h1>
                 <h2>Shipping Information</h2>
                 <label for="name"></label>
                 <input type="text" name="name" id="name" class="form_input" required placeholder="First name">
@@ -64,27 +64,23 @@
                 <input type="email" name="email" id="email" class="form_input" required placeholder="E-mail">
                 <label for="phonenr"></label>
                 <input type="text" name="phonenr" id="phonenr" class="form_input" placeholder="Phone Number">
-            </section>
             <a href="../checkout-success.html" class="cta-black">Add to bag</a>
-            </form>
-            <section class="next">
-                <form>
-                    <div class="shipping">
-                        <label>
-                        <select id="shipping" name="shipping">
-                            <option value="0">Shipping</option>
-                        </select>
-                        </label>
-                    </div>
-                    <div class="payment">
-                        <label>
-                        <select id="payment" name="payment">
-                            <option value="0">Payment</option>
-                        </select>
-                        </label>
-                    </div>
-                </form>
+            <div class="shipping">
+                <label>
+                <select id="shipping" name="shipping">
+                    <option value="0">Shipping</option>
+                </select>
+                </label>
+            </div>
+            <div class="payment">
+                <label>
+                <select id="payment" name="payment">
+                    <option value="0">Payment</option>
+                </select>
+                </label>
+            </div>
             </section>
+            </form>
             <section class="order-summary">
                 <div class="os-1">
                     <h2>Order summary</h2>
