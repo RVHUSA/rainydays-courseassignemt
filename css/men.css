@@ -1,4 +1,3 @@
-/* Men Page */
 .products-header {
     background: url("../images/news-product.png") center no-repeat;
     min-height: 500px;
@@ -15,8 +14,9 @@
     font-size: xx-large;
 }
 
-select{
-    border-top-style: 5px solid;
+select {
+    border: none;
+    outline: none;
     margin: 50px 0px 0px 60px;
     font-size: 1rem;
     font-weight: bold;
