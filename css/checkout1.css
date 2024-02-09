@@ -1,17 +1,20 @@
 .checkout h1,
-.order-summary h2 {
+.os-1 h2 {
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .checkout {
     max-width: 700px;
-    margin-left: 20px;
+    margin-left: 60px;
+    display: flex;
 }
 
 .checkout-form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    max-width: 700px;
 }
 
 form {
@@ -23,6 +26,7 @@ form {
     text-decoration: none;
     border-radius: 0.5em;
     border-style: solid;
+    margin-bottom: 40px;
 }
 
 textarea {
@@ -43,9 +47,10 @@ select {
     font-size: 1.5rem;
     font-weight: 600;
     font-family: "Hind Madurai";
-    color: #929292;
+    color: #D9D9D9;
     width: 685px;
     margin: 10px 10px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 .order-summary,
@@ -53,15 +58,51 @@ select {
     background: #F4F3F3;
     border-radius: 0.7rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 500px;
-    height: 50px;
+    grid-template-columns: 300px 200px;
+    margin: 150px 10px 100px 100px;
+    grid-template-rows: 280px 280px;
 }
+
 
 img {
-    max-width: 200px;
+    max-width: 170px;
+    margin: 20px 20px 20px 30px;
 }
 
-.checkout {
-    display: flex;
+.selected {
+    border-top: 1px solid #D9D9D9;
+}
+
+.os-1 {
+    margin: 20px;
+    width: 465px;
+}
+
+.os-2 {
+    margin: 105px 0px 0px 150px;
+}
+
+.jump {
+    color: #929292;
+    font-size: 0.9rem;
+    border-bottom: solid #000;
+}
+
+.total {
+    border-bottom: solid #000;
+}
+
+.os-4 h2, 
+.os-4 p {
+    font-size: 1rem;
+}
+
+.os-4 {
+    margin: 15px 0px;
+}
+
+.edit {
+    margin: 0px 450px;
+    text-decoration: underline;
+    font-size: 0.9rem;
 }

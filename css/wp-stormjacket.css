@@ -132,3 +132,19 @@ img {
     text-transform: uppercase;
 }
 
+.details {
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+.details1 {
+    margin: 2px 0px;
+}
+
+ul {
+    padding: 0px 15px;
+}
+
+.bold {
+    font-weight: bolder;
+}
