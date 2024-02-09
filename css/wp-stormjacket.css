@@ -28,9 +28,20 @@
     text-transform: uppercase;
     border-radius: 0.5em;
     max-width: 40px;
-    margin: 20px;
+    margin: 12px 15px 12px 0px;
     text-align: center;
-    padding: 10px 15px;
+    padding: 10px 20px;
+}
+
+.cta-size:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.color1:hover,
+.color2:hover,
+.color3:hover {
+    border: 2px solid;
 }
 
 .product-info h2 {
@@ -39,11 +50,12 @@
 
 .size {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .cta-product {
     text-decoration: none;
-    padding: 15px 160px;
+    padding: 15px 125px;
     border-radius: 8px;
 }
 
@@ -54,6 +66,17 @@
     justify-content: center;
 }
 
+img {
+    width: 400px;
+}
+
+.product-info img {
+    border-radius: 8px;
+    background-color: #F4F3F3;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+}
 
 .product-info,
 .product-specific_details {
@@ -61,19 +84,51 @@
     padding: 100px 50px 50px 0px;
 }
 
-.color {
+.color-flex {
     display: flex;
 }
 
 .description {
-    margin-top: 150px;
+    margin-top: 90px;
 }
 
-.product-img {
-    width: 400px;
-    border-radius: 8px;
-    background-color: #F4F3F3;
-    margin: 10px;
-    padding: 20px;
+.product-specific h1 {
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+}
+
+.product-specific h2 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+}
+
+.fill-icons {
+    margin: 10px 10px 0px 0px;
+}
+
+.reviews p {
+    font-size: 0.9rem;
+}
+
+.price p {
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+
+.color {
+    margin-top: 50px;
+}
+
+.text-size {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
 }
 
