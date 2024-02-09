@@ -1,4 +1,4 @@
-ul {
+ul, #menu-checkbox {
     display: none;
 }
 
@@ -6,42 +6,23 @@ ul {
     display: block;
 }
 
-#menu-checkbox {
-    display: none;
+nav ul {
+    display: block;
 }
 
-label {
-    display:none;
+
+
+@media only screen and (max-width: 425px) {
+
+header, footer, main {
+    max-width: 425px;
 }
 
-@media only screen and (max-width: 600px) {
-
-nav ul{
-    position:absolute;
-    top:34px;
-    width:100%;
-    background:darkgrey;
-    height:0;
-    overflow:hidden;
-    transition:height 1s;
+.logo {
+    float: left;
+    margin: 15px 0px 15px 50px;
 }
 
-nav li{
-    display:block;
-    width:100%;
-    padding:5px; 
-}
 
-label{
-    display:block;
-    padding:0px 10px;
-    font-size:30px;
-    cursor:pointer;
-}
-
-#nav-button:checked ~ ul{
-    height:140px;
-    transition: height 1s;
-}
 
 }

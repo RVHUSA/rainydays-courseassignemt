@@ -34,8 +34,8 @@ header a {
 }
 
 .logo {
-    float: left;
-    margin: 15px 0px 15px 50px;
+    display: block;
+    margin: auto;
 }
 
 header img {
@@ -199,6 +199,27 @@ footer {
 }
 
 
+
+/* Media */
+
+@media (min-width: 600px) {
+.logo {
+    float: left;
+    margin: 15px 0px 15px 50px;
+}
+}
+
+@media (min-width: 800px){
+
+.logo {
+    float: left;
+    margin: 15px 0px 15px 50px;
+}
+
+.header {
+    max-width: 800px;
+}
+}
 
 
 

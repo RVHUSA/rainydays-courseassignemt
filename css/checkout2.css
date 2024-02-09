@@ -1,0 +1,43 @@
+.jump {
+    display: block;
+}
+
+.checkout2 {
+    margin-left: 60px;
+}
+
+.co-1,
+.co-2,
+.co-3 {
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.cta-black {
+    padding: 15px 300px; 
+    text-decoration: none;
+    border-radius: 0.5em;
+    border-style: solid;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+p:first-child {
+    margin: 20px 0px 2px 15px;
+}
+
+p:last-child {
+    margin: 2px 0px 20px 15px;
+}
+
+p {
+    margin: 2px 0px 10px 15px;
+}

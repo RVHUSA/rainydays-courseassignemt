@@ -34,8 +34,8 @@ input, select, textarea {
 }
 
 .contact {
-    max-width: 700px;
-    margin-left: 20px;
+    max-width: 250px;
+    margin-left: 60px;
 }
 
 .contact-form {
@@ -45,9 +45,33 @@ input, select, textarea {
 }
 
 .cta-black {
-    padding: 15px 318px; 
+    padding: 15px 31px; 
 }
 
 textarea {
     padding: 15px 15px 120px 15px;
 }
+
+/* Media*/
+
+@media (min-width: 600px) {
+    .contact {
+        max-width: 500px;
+    }
+
+    .cta-black {
+        padding: 15px 31px;
+    }
+}
+
+@media (min-width: 800px){
+    .contact {
+        max-width: 700px;
+    }
+
+    .cta-black {
+        padding: 15px 318px;
+    }
+
+}
+
