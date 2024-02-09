@@ -5,11 +5,12 @@
     width: 30px;
     height: 30px;
     list-style: none;
-
+    margin: 0px 5px;
 }
 
 .color1 {
     background: #6C686D;
+    margin: 0px 5px 0px 0px;
 }
 
 .color2 {
@@ -50,6 +51,7 @@
 .product-specific {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
 }
 
 img {
@@ -61,3 +63,8 @@ img {
     max-width: 500px;
     padding: 100px 50px 50px 0px;
 }
+
+.color {
+    display: flex;
+}
+

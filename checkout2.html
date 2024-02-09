@@ -47,21 +47,34 @@
                 <h1>Checkout</h1>
                 <h2>Shipping Information</h2>
             <div class="co-1">
+            <div>
                 <p>Ola Nordmann</p>
                 <p>ola.nordmann@hotmail.com <span class="jump">46756798</span></p>
                 <p>Kongsgata 45 <span class="jump"></span> Oslo, 0010, NO</p>
             </div>
+            <div class="checksymbol">
+                <span class="material-symbols-outlined">done</span>
+            </div>
+            </div>
             <form action="">
                 <h2>Shipping Method</h2>
             <div class="co-2">
-                <input type="radio" name="shipping" value="bring" id="shipping-1" />
-                <label for="shipping-1">Bring Home Delivery <span class="jump">Standard delivery: 2-4 working days</span></label>
                 <div>
+                <input type="radio" name="shipping" value="bring" id="shipping-1" />
+                </div>
+                <div class="box1">
+                <label for="shipping-1">Bring Home Delivery <span class="jump">Standard delivery: 2-4 working days</span></label>
+                </div>
+                <div class="box2">
                     <p>Free</p>
                 </div>
-                <input type="radio" name="shipping" value="helt-hjem" id="shipping-2" />
-                <label for="shipping-2">Helt hjem <span class="jump">Standard delivery: 2-6 working days</span></label>
                 <div>
+                <input type="radio" name="shipping" value="helt-hjem" id="shipping-2" />
+                </div>
+                <div class="box1">
+                <label for="shipping-2">Helt hjem <span class="jump">Standard delivery: 2-6 working days</span></label>
+                </div>
+                <div class="box2">
                     <p>Free</p>
                 </div> 
             </div> 
@@ -69,24 +82,48 @@
             <div class="co-3">
                 <input type="radio" name="payment" value="card" id="payment-1" />
                 <label for="payment-1">Payment Card</label>
-                <div>
+                <div class="pm1">
                     <img src="images/visa.png" alt="visa card">
                     <img src="images/mastercard.png" alt="mastercard">
                     <img src="images/americanexpress.png" alt="american express">
                 </div>
                 <input type="radio" name="payment" value="klarna" id="payment-2" />
                 <label for="payment-2">Pay later with Klarna</label>
-                <div>
+                <div class="pm2">
                     <img src="images/klarna.png" alt="klarna">
                 </div>
             <input type="radio" name="payment" value="paypal" id="payment-3" />
             <label for="payment-3">Pay with Paypal</label>
-                <div>
+                <div class="pm2">
                     <img src="images/paypal.png" alt="paypal">
                 </div>
         </div>
             <a href="../checkout-success.html" class="cta-black">Confirm order</a>
             </form>
+            </section>
+            <section class="order-summary">
+                <div class="os-1">
+                    <h2>Order summary</h2>
+                    <h3>Subtotal</h3>
+                    <h3>Delivery/Shipping</h3> 
+                    <h4>Estimated delivery in 2-6 days</h4>
+                    <h3>Total</h3>
+                </div>
+                <div class="os-2">
+                    <p>€120</p>
+                    <p>Free</p>
+                    <p>€120</p>
+                </div>
+                <div class="os-3">
+                    <img src="/images/jacket2.png" alt="Watherproof Storm Jacket">
+                </div>
+                <div class="os-4">
+                    <h2>Watherproof Storm Jacket</h2>
+                    <p>€120</p>
+                    <p>Size: XL / Quantity: 1</p>
+                    <p>Color: Shadow Grey</p>
+                </div>
+                <p>Edit cart</p>
             </section>
         </main>
         <footer>
