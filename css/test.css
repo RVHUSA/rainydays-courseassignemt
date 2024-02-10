@@ -1,19 +1,11 @@
+
+
 .delivery {
     background-color: #203E5F;
     color: #fff;
     text-align: center;
-}
-
-ul, #menu-checkbox {
-    display: none;
-}
-
-#menu-checkbox:checked ~ ul {
-    display: block;
-}
-
-.nav-icons {
-    display: none;
+    font-size: 0.5em;
+    font-family: "Hind Madurai";
 }
 
 .logo {
@@ -26,3 +18,152 @@ ul, #menu-checkbox {
     display: inline;
 }
 
+.responsive {
+    display: flex;
+    justify-content: center;
+}
+
+.logo2 {
+    width: 875px;
+}
+
+ul, 
+#menu-checkbox,
+.nav-icons {
+    display: none;
+}
+
+#menu-checkbox:checked ~ ul {
+    display: block;
+}
+
+ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: "Hind Madurai";
+}
+
+ul {
+    list-style-type: none;
+    background-color: #203E5F;
+    top: 90px;
+    position: absolute;
+    width: 100%;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.icons .shopping .material-symbols-outlined {
+    font-size: 2rem;
+}
+
+#menu-checkbox .material-symbols-outlined {
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.hamburger-icon,
+.icons-shopping {
+    font-size: 3rem;
+    margin: 0px 10px;
+}
+
+.nav-category {
+    padding: 15px 0px;
+}
+
+.hamburger-icon .material-symbols-outlined,
+.icons-shopping .material-symbols-outlined {
+    font-size: 2rem;
+}
+
+
+
+/* Men page */
+
+.products-header {
+    background-image: url("../images/news-product.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.products-header h1 {
+    color: #fff;
+    position: absolute;
+    top: 275px;
+    left: 75px;
+    right: 500px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+/* Media */
+
+
+        
+@media (min-width: 900px) {
+        
+ul {
+    position: static;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+}
+
+ul a {
+    color: #000;
+}
+
+.hamburger-icon,
+.icons-shopping {
+    display: none;
+}
+
+.navbar {
+    display: grid;
+    grid-template-rows: 90px;
+    grid-template-columns: 180px 600px;
+    margin-bottom: 0px;
+}
+
+.nav-category {
+    display: flex;
+    padding: 0px;
+}
+
+.nav-icons {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+}
+
+.logo {
+    margin: 12px 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px 0px 15px 50px;
+    font-weight: bold;
+}
+
+.icons {
+    float: right;
+    margin: 15px 5px 15px 0px;
+}
+}

@@ -37,14 +37,15 @@ select {
 
 .jacket-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 350px 350px 350px 350px;
+    grid-gap: 0px;
     margin: 40px 60px 120px 60px;
 }
 
 .jackets img,
 .product_image {
-    width: 300px;
+    width: 200px;
     height: auto;
     grid-column: -1/1;
     align-items: center;
@@ -70,4 +71,34 @@ select {
 .jacket-list a {
 text-decoration: none;
 color: #000;
+}
+
+
+/* Media */
+
+@media (min-width: 550px) {
+
+.content {
+    display: grid;
+    margin: 60px;
+    grid-gap: 1em;
+    grid-template-rows: auto;
+    max-width: 500px;
+}
+
+}
+    
+@media (min-width: 800px) {
+    
+.jacket-list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 450px 450px 450px 450px;
+    grid-gap: 20px;
+}
+
+.jackets img,
+.product_image {
+    width: 300px;
+}
+
 }
