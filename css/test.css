@@ -1,0 +1,28 @@
+.delivery {
+    background-color: #203E5F;
+    color: #fff;
+    text-align: center;
+}
+
+ul, #menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ ul {
+    display: block;
+}
+
+.nav-icons {
+    display: none;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    max-width: 120px;
+}
+
+.icons .shopping {
+    display: inline;
+}
+

@@ -4,6 +4,11 @@
     font-weight: bolder;
 }
 
+.os-1 h2 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
 .checkout {
     max-width: 700px;
     margin-left: 60px;

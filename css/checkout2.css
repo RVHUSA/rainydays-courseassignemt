@@ -12,15 +12,18 @@
 }
 
 .cta-black {
-    padding: 15px 300px; 
     text-decoration: none;
     border-radius: 0.5em;
     border-style: solid;
+    padding: 15px 245px;;
 }
 
 h2 {
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+.checkout2-choice h2 {    
     margin-top: 40px;
 }
 
@@ -30,16 +33,26 @@ main h1 {
     margin-top: 20px;
 }
 
-p:first-child {
+.os-1 h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.checkout2-choice p:first-child {
     margin: 20px 0px 2px 20px;
 }
 
-p:last-child {
+.checkout2-choice p:last-child {
     margin: 2px 0px 20px 20px;
 }
 
-p {
+.checkout2-choice p {
     margin: 2px 0px 10px 20px;
+}
+
+.checkout2-choice {
+    margin-bottom: 50px;
 }
 
 label {
@@ -106,4 +119,65 @@ input[type=radio] {
 
 .checksymbol {
     margin: 10px 0px 0px 60px;
+}
+
+
+
+/* order summary */
+
+.order-summary,
+.os {
+    background: #F4F3F3;
+    border-radius: 0.7rem;
+    display: grid;
+    grid-template-columns: 300px 200px;
+    margin: 150px 10px 100px 100px;
+    grid-template-rows: 280px 280px;
+}
+
+.order-summary img {
+    max-width: 170px;
+    margin: 20px 20px 20px 30px;
+}
+
+.os-1 {
+    margin: 20px;
+    width: 465px;
+}
+
+.order-summary .jump {
+    color: #929292;
+    font-size: 0.9rem;
+    border-bottom: solid #000;
+}
+
+.total {
+    border-bottom: solid #000;
+}
+
+.os-4 h2, 
+.os-4 p {
+    font-size: 1rem;
+}
+
+.os-4 {
+    margin: 15px 0px;
+}
+
+.edit {
+    margin: 0px 450px;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+.checkout2 {
+    display: flex;
+}
+
+.os-2 {
+    margin: 115px 0px 0px 150px;
+}
+
+.os-2 h2 {
+    margin-top: 0px;
 }
