@@ -27,24 +27,27 @@
     width: 875px;
 }
 
-ul, 
+.navbar-split, 
 #menu-checkbox,
 .nav-icons {
     display: none;
 }
 
-#menu-checkbox:checked ~ ul {
+#menu-checkbox:checked ~ .navbar-split {
     display: block;
+    margin-top: 15px;
 }
 
-ul a {
+.navbar-split a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
     font-family: "Hind Madurai";
+    display: block;
+    margin-left: 15px;
 }
 
-ul {
+.navbar-split {
     list-style-type: none;
     background-color: #203E5F;
     top: 90px;
@@ -52,7 +55,8 @@ ul {
     width: 100%;
 }
 
-li {
+a,
+.nav-icons p {
     margin-bottom: 10px;
 }
 
@@ -117,14 +121,14 @@ nav a:hover {
         
 @media (min-width: 900px) {
         
-ul {
+.navbar-split {
     position: static;
     background-color: #fff;
     color: #000;
     display: flex;
 }
 
-ul a {
+.navbar-split a {
     color: #000;
 }
 
@@ -142,7 +146,6 @@ ul a {
 
 .nav-category {
     display: flex;
-    padding: 0px;
 }
 
 .nav-icons {
@@ -156,7 +159,7 @@ ul a {
     margin: 12px 50px;
 }
 
-nav li {
+nav .nav-category a {
     display: inline-block;
     margin: 15px 0px 15px 50px;
     font-weight: bold;
@@ -166,4 +169,10 @@ nav li {
     float: right;
     margin: 15px 5px 15px 0px;
 }
+
+#menu-checkbox:checked ~ .navbar-split {
+    display: none;
+    margin-top: 0px;
+}
+
 }
