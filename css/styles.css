@@ -38,6 +38,7 @@ body {
     display: block;
     margin: auto;
     max-width: 120px;
+    margin-top: 10px;
 }
 
 .icons .shopping {

@@ -29,3 +29,29 @@
     border-radius: 7px;
     text-decoration: none;
 }
+
+
+/* Media */
+
+@media (max-width: 400px) {
+    
+    main {
+        text-align: center;
+        }
+    }
+    
+
+@media (max-width: 900px) {
+    
+main {
+    text-align: center;
+    }
+}
+
+@media (min-width: 1300px) {
+
+main {
+    text-align: center;
+    padding: 80px;
+}
+}
