@@ -7,16 +7,19 @@
 .co-3 {
     border: 2px solid #D9D9D9;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 240px;
     display: grid;
+    font-size: 0.8rem;
 }
+
 
 .cta-black {
     text-decoration: none;
     border-radius: 0.5em;
     border-style: solid;
-    padding: 15px 245px;;
+    padding: 10px 65px;
 }
+
 
 h2 {
     font-size: 1.2rem;
@@ -66,11 +69,11 @@ label {
 }
 
 .co-1{
-    grid-template-columns: 500px 100px;
+    grid-template-columns: 200px 10px;
 }
 
 .co-2 {
-    grid-template-columns: 50px 400px 150px;
+    grid-template-columns: 40px 220px;
 }
 
 .card {
@@ -89,7 +92,7 @@ input[type=radio] {
 }
 
 .co-3 img {
-    max-width: 50px;
+    max-width: 30px;
 }
 
 .box1 {
@@ -97,12 +100,90 @@ input[type=radio] {
 }
 
 .box2 {
-    margin: 30px 0px 0px 80px;
+    display: none;
+}
+
+.co-3 {
+    grid-template-columns: 40px 80px 150px;
+    margin-bottom: 50px;
+}
+
+.pm1 {
+   margin: 25px 0px 0px 15px
+}
+
+.pm2 {
+    margin: 20px 0px 0px 85px;
+}
+
+.co-3 label {
+    margin: 25px 0px 30px 15px;
+}
+
+.checksymbol {
+    margin: 0;
+}
+
+.checkout2 {
+    display: flex;
+    margin: 10px 0px 30px 20px;
+}
+
+
+/* order summary */
+
+.order-summary {
+    display: none;
+}
+
+
+
+
+
+
+
+/* Media */
+
+@media (min-width: 700px) {
+
+.co-1, .co-2, .co-3 {
+    max-width: 375px;
+    font-size: 1rem;
+}
+.co-1,
+.co-2,
+.co-3 {
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.checkout2 {
+    margin: 30px 0px 30px 50px;
+}
+
+.co-1{
+    grid-template-columns: 500px 100px;
+}
+
+.co-2 {
+    grid-template-columns: 50px 400px 150px;
 }
 
 .co-3 {
     grid-template-columns: 50px 200px 350px;
-    margin-bottom: 50px;
+}
+
+.co-3 img {
+    max-width: 50px;
+}
+
+.checksymbol {
+    margin: 10px 0px 0px 60px;
+}
+
+.box2 {
+    margin: 30px 0px 0px 80px;
+    display: inline;
 }
 
 .pm1 {
@@ -113,17 +194,26 @@ input[type=radio] {
     margin: 20px 0px 0px 280px;
 }
 
-.co-3 label {
-    margin: 25px 0px 30px 15px;
+.cta-black {
+    padding: 15px 245px;;
+}
+
+}
+
+    
+    
+@media (min-width: 1024px) {
+
+.co-1,
+.co-2,
+.co-3 {
+    border-radius: 10px;
+    max-width: 600px;
 }
 
 .checksymbol {
     margin: 10px 0px 0px 60px;
 }
-
-
-
-/* order summary */
 
 .order-summary,
 .os {
@@ -170,10 +260,6 @@ input[type=radio] {
     font-size: 0.9rem;
 }
 
-.checkout2 {
-    display: flex;
-}
-
 .os-2 {
     margin: 115px 0px 0px 150px;
 }
@@ -181,3 +267,6 @@ input[type=radio] {
 .os-2 h2 {
     margin-top: 0px;
 }
+    
+}
+    
