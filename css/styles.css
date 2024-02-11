@@ -227,6 +227,7 @@ footer {
 .footer-b {
     display: flex;
     justify-content: space-evenly;
+    font-size: 0.6rem;
 }
 
 .ftext4 h2 {
@@ -322,7 +323,7 @@ footer {
 @media screen and (min-width: 600px) {
         
         .footer-b {
-            font-size: 0.7rem;
+            font-size: 0.8rem;
         }
 
         .footer-c {
@@ -344,7 +345,7 @@ footer {
 
 @media (min-width: 850px) {
     .footer-b {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .footer-c {
@@ -366,7 +367,7 @@ footer {
 
 @media (min-width: 1000px) {
     .footer-b {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .footer-c {

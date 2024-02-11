@@ -140,3 +140,30 @@ footer {
     display: flex;
     margin-top: 30px;
 }
+
+
+
+
+MEDIA ABOUT use
+
+@media (min-width: 600px) {
+    .content {
+        display: grid;
+        margin: 60px;
+        grid-gap: 1em;
+        grid-template-rows: auto;
+        max-width: 500px;
+        }
+    
+       
+    }
+    
+    @media (min-width: 800px){
+    .content {
+        display: grid;
+        margin: 60px;
+        grid-gap: 6em;
+        grid-template-columns: 1fr 1fr;
+        }
+    
+    }
