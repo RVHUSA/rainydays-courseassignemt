@@ -127,9 +127,9 @@ color: #000;
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: 450px 450px 450px 450px;
     grid-gap: 20px;
-    justify-content: center;
+    justify-content: start;
     font-size: 1rem;
-    margin-top: 20px;
+    margin-top: 20px 60px;
 }
 
 .jackets img,
