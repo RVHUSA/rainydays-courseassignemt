@@ -322,12 +322,11 @@ footer {
 @media screen and (min-width: 600px) {
         
         .footer-b {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
 
         .footer-c {
             grid-template-columns: 200px 200px 200px;
-            grid-template-rows: 250px 250px;
         }
         
         .bottom2 img {
@@ -344,7 +343,11 @@ footer {
         }
 
 @media (min-width: 850px) {
-.footer-c {
+    .footer-b {
+        font-size: 0.7rem;
+    }
+
+    .footer-c {
         grid-template-columns: 200px 200px 200px 200px;
         grid-template-rows: 0px 250px;
     }
@@ -362,6 +365,10 @@ footer {
 
 
 @media (min-width: 1000px) {
+    .footer-b {
+        font-size: 0.7rem;
+    }
+
     .footer-c {
     grid-template-columns: 325px 325px 325px 500px;
     grid-template-rows: 200px;
