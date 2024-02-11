@@ -13,6 +13,8 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
+/* part of header */
+
 .delivery, .pushing-tcz {
     background-color: #203E5F;
     color: #fff;
@@ -30,46 +32,91 @@ body {
     text-transform: uppercase;
 }
 
-header a {
-    color: #000;
-    text-decoration: none;
-    background-color: #fff;
-    list-style-type: none;
-}
+/* navbar */
 
 .logo {
     display: block;
     margin: auto;
-}
-
-header img {
     max-width: 120px;
 }
 
-nav {
-    float: center;
+.icons .shopping {
+    display: inline;
 }
 
-nav ul {
-    margin-left: 160px;
-    list-style: none;
-    margin: 15px;
+.logo2 {
+    width: 875px;
 }
 
-nav li {
-    display: inline-block;
-    margin: 15px 0px 15px 50px;
-    font-weight: bold;
+.navbar-split, 
+#menu-checkbox,
+.nav-icons {
+    display: none;
 }
 
-.icons {
-    float: right;
-    margin: 15px 5px 15px 0px;
+#menu-checkbox:checked ~ .navbar-split {
+    display: block;
+    margin-top: 15px;
+}
+
+.navbar-split a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: "Hind Madurai";
+    display: block;
+    margin-left: 15px;
+}
+
+.navbar-split {
+    list-style-type: none;
+    background-color: #203E5F;
+    top: 90px;
+    position: absolute;
+    width: 100%;
+}
+
+a,
+.nav-icons p {
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.icons .shopping .material-symbols-outlined {
+    font-size: 2rem;
+}
+
+#menu-checkbox .material-symbols-outlined {
+    margin: 10px;
+    font-size: 2.5rem;
 }
 
 nav a:hover {
     color: orange;
 }
+
+.hamburger-icon,
+.icons-shopping {
+    font-size: 3rem;
+    margin: 0px 10px;
+}
+
+.nav-category {
+    padding: 15px 0px;
+}
+
+.hamburger-icon .material-symbols-outlined,
+.icons-shopping .material-symbols-outlined {
+    font-size: 2rem;
+}
+
+
+
+/* Buttons */
 
 .cta {
     color: #000;
@@ -208,33 +255,68 @@ footer {
 
 
 
+
 /* Media */
-
-@media (min-width: 600px) {
-.logo {
-    float: left;
-    margin: 15px 0px 15px 50px;
-}
-}
-
-@media (min-width: 800px){
-
-.logo {
-    float: left;
-    margin: 15px 0px 15px 50px;
-}
-
-.header {
-    max-width: 800px;
-}
-}
-
-
-
-
-
-
-
+        
+@media (min-width: 900px) {
+        
+    .navbar-split {
+        position: static;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+    }
+    
+    .navbar-split a {
+        color: #000;
+    }
+    
+    .hamburger-icon,
+    .icons-shopping {
+        display: none;
+    }
+    
+    .navbar {
+        display: grid;
+        grid-template-rows: 90px;
+        grid-template-columns: 180px 600px;
+        margin-bottom: 0px;
+    }
+    
+    .nav-category {
+        display: flex;
+    }
+    
+    .nav-icons {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 55px;
+    }
+    
+    .logo {
+        margin: 12px 50px;
+    }
+    
+    nav .nav-category a {
+        display: inline-block;
+        margin: 15px 0px 15px 50px;
+        font-weight: bold;
+    }
+    
+    .icons {
+        float: right;
+        margin: 15px 5px 15px 0px;
+    }
+    
+    #menu-checkbox:checked ~ .navbar-split {
+        display: none;
+        margin-top: 0px;
+    }
+    
+    }
+    
+    
 
 
 

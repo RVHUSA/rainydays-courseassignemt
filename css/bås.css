@@ -1,0 +1,66 @@
+
+
+/* index */
+
+header a {
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    list-style-type: none;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+header img {
+    max-width: 120px;
+}
+
+nav {
+    float: center;
+}
+
+nav ul {
+    margin-left: 160px;
+    list-style: none;
+    margin: 15px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px 0px 15px 50px;
+    font-weight: bold;
+}
+
+.icons {
+    float: right;
+    margin: 15px 5px 15px 0px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+
+/* Media index */
+
+@media (min-width: 600px) {
+    .logo {
+        float: left;
+        margin: 15px 0px 15px 50px;
+    }
+    }
+    
+    @media (min-width: 800px){
+    
+    .logo {
+        float: left;
+        margin: 15px 0px 15px 50px;
+    }
+    
+    .header {
+        max-width: 800px;
+    }
+    }
