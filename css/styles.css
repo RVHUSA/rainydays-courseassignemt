@@ -188,14 +188,14 @@ footer {
 }
 
 .footer-c {
-    height: 30vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: 325px 370px;
+    grid-template-rows: 220px 220px;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .footer-heading {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5rem;
     color: #fff;
     margin-left: 50px;
 }
@@ -211,21 +211,16 @@ footer {
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
+    display: block;
 }
 
 .footer-heading a:hover {
     color: orange;
 }
 
-.ftext4 {
+.footer-b {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-shrink: 1;
-}
-
-.ftext4:nth-of-type(1) {
-    flex-shrink: 3;
+    justify-content: space-evenly;
 }
 
 .ftext4 h2 {
@@ -239,84 +234,153 @@ footer {
 }
 
 .bottom1 {
-    padding-top: 50px;
-    text-align: center;
-    margin: 0 500px; 
+    justify-content: center;
 }
 
-.bottom2 {
-    padding-top: 50px;
-}
-
-.footer-b {
-    display: flex;
-    margin-top: 30px;
+.bottom2 img {
+    max-width: 20px;
+    border-radius: 30px;
 }
 
 
 
 
-/* Media */
+/* Media navbar */
         
 @media (min-width: 900px) {
         
-    .navbar-split {
-        position: static;
-        background-color: #fff;
-        color: #000;
-        display: flex;
-    }
+.navbar-split {
+    position: static;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+}
     
-    .navbar-split a {
-        color: #000;
-    }
+.navbar-split a {
+    color: #000;
+}
     
-    .hamburger-icon,
-    .icons-shopping {
-        display: none;
-    }
+.hamburger-icon,
+.icons-shopping {
+    display: none;
+}
     
-    .navbar {
-        display: grid;
-        grid-template-rows: 90px;
-        grid-template-columns: 180px 600px;
-        margin-bottom: 0px;
-    }
+.navbar {
+    display: grid;
+    grid-template-rows: 90px;
+    grid-template-columns: 180px 600px;
+    margin-bottom: 0px;
+}
     
-    .nav-category {
-        display: flex;
-    }
+.nav-category {
+    display: flex;
+}
     
-    .nav-icons {
-        display: inline-block;
-        position: absolute;
-        right: 10px;
-        top: 55px;
-    }
+.nav-icons {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+}
     
-    .logo {
-        margin: 12px 50px;
-    }
+.logo {
+    margin: 12px 50px;
+}
     
-    nav .nav-category a {
-        display: inline-block;
-        margin: 15px 0px 15px 50px;
-        font-weight: bold;
-    }
+nav .nav-category a {
+    display: inline-block;
+    margin: 15px 0px 15px 50px;
+    font-weight: bold;
+}
     
-    .icons {
-        float: right;
-        margin: 15px 5px 15px 0px;
-    }
+.icons {
+    float: right;
+    margin: 15px 5px 15px 0px;
+}
     
-    #menu-checkbox:checked ~ .navbar-split {
-        display: none;
-        margin-top: 0px;
-    }
+#menu-checkbox:checked ~ .navbar-split {
+    display: none;
+    margin-top: 0px;
+}
     
-    }
-    
-    
+}
 
+
+/* Media footer */
+
+@media (max-width: 425px) {
+
+.footer-c {
+        grid-template-columns: 180px 180px;
+        grid-template-rows: 250px 250px;
+        justify-content: center;
+    }
+    
+    .footer-b {
+        font-size: 0.8rem;
+    }
+    
+    .bottom2 img {
+        max-width: 16px;
+    }
+    
+    .footer-heading h2 {
+        font-size: 1rem;
+    }
+    
+    .footer-heading a {
+        font-size: 0.9rem;
+    }
+    
+    .footer-heading img {
+        width: 35px;
+        height: 20px;
+        margin: 3px;
+    }
+    
+    }
+    
+    @media (max-width: 600px) {
+    
+    .footer-c {
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 250px 250px;
+        justify-content: center;
+    }
+    
+    .footer-b {
+        font-size: 0.8rem;
+    }
+    
+    .bottom2 img {
+        max-width: 16px;
+    }
+    
+    }
+    
+    @media (max-width: 850px) {
+    
+    .footer-c {
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 250px 250px;
+        justify-content: center;
+    }
+    }
+    
+    @media (min-width: 1300px) {
+    
+    .footer-c {
+        display: grid;
+        grid-template-columns: 325px 325px 325px 500px;
+        grid-template-rows: 200px;
+        justify-content: start;
+        margin-bottom: 50px;
+    }
+    
+    .bottom1 {
+        margin: 0px 470px; 
+    }
+    
+    }
 
 
