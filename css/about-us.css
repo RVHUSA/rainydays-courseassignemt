@@ -3,7 +3,7 @@
     display: grid;
     margin: 20px;
     grid-gap: 2em;
-    grid-template-columns: 180px;
+    grid-template-columns: 200px;
     justify-content: center;
 }
 
