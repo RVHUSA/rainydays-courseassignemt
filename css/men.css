@@ -43,7 +43,7 @@ select {
 
 .jackets img,
 .product_image {
-    width: 150px;
+    width: 120px;
     height: auto;
     grid-column: -1/1;
     align-items: center;
