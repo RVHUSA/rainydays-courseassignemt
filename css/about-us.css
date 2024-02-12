@@ -1,9 +1,9 @@
 
 .content {
     display: grid;
-    margin: 30px;
+    margin: 20px;
     grid-gap: 2em;
-    grid-template-columns: 190px;
+    grid-template-columns: 180px;
     justify-content: center;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .content-3 img {
-    max-width: 250px;
+    max-width: 220px;
     border-radius: 15px;
 }
 
@@ -40,6 +40,10 @@ h2 {
 @media (min-width: 450px) {
     .content {
         grid-template-columns: 300px;
+    }
+
+    .content-3 img {
+        max-width: 250px;
     }
 
 }
