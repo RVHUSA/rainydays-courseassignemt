@@ -33,8 +33,8 @@ select {
 
 .jacket-list {
     display: grid;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: 250px 250px 270px 250px;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 240px 240px 260px;
     grid-gap: 0px;
     margin: 20px 20px 20px 20px;
     font-size: 0.7rem;
@@ -43,7 +43,7 @@ select {
 
 .jackets img,
 .product_image {
-    width: 100px;
+    width: 90px;
     height: auto;
     grid-column: -1/1;
     align-items: center;
