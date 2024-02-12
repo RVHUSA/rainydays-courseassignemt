@@ -12,12 +12,12 @@
 }
 
 .content-2 img {
-    max-height: 210px;
+    max-height: 255px;
     border-radius: 15px;
 }
 
 .content-3 img {
-    max-width: 180px;
+    max-width: 220px;
     border-radius: 15px;
 }
 
