@@ -79,8 +79,8 @@ h2 {
 }
 
 @media (min-width: 700px){
-     {
-    grid-template-columns: 300px 300px;
+{
+
     grid-gap: 6em;
     }
 
