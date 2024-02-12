@@ -152,15 +152,6 @@ nav a:hover {
     padding: 5px 200px; 
 }
 
-.sign-up .cta-su {
-    padding: 8px 225px;
-}
-
-.sign-up input {
-    border-radius: 0px;
-    padding: 8px 200px;
-    margin: 0px 0px 8px;
-}
 
 textarea::placeholder {
     font-family: "Hind Madurai", "Poppins", "Arial";
