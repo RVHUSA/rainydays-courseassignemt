@@ -10,8 +10,8 @@
 }
 
 .checkout {
-    max-width: 700px;
-    margin-left: 60px;
+    max-width: 290px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -65,15 +65,16 @@ select {
     background: #F4F3F3;
     border-radius: 0.7rem;
     display: grid;
-    grid-template-columns: 300px 200px;
-    margin: 30px 50px 30px 0px;
-    grid-template-rows: 280px 280px 50px;
+    grid-template-columns: 140px 140px;
+    margin: 30px 0px;
+    grid-template-rows: 190px 190px;
+    font-size: 0.6rem;
+    justify-content: center;
 }
 
-
 img {
-    max-width: 170px;
-    margin: 20px 20px 20px 30px;
+    max-width: 100px;
+    margin: 30px 20px 10px 10px;
 }
 
 .selected {
@@ -82,16 +83,16 @@ img {
 
 .os-1 {
     margin: 20px;
-    width: 465px;
+    width: 240px;
 }
 
 .os-2 {
-    margin: 105px 0px 0px 150px;
+    margin: 90px 0px 0px 90px;
 }
 
 .jump {
     color: #929292;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     border-bottom: solid #000;
 }
 
@@ -101,21 +102,24 @@ img {
 
 .os-4 h2, 
 .os-4 p {
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
+
 .os-4 {
-    margin: 15px 0px;
+    margin: 25px 0px;
 }
 
 .edit {
-    margin: 0px 450px;
-    text-decoration: underline;
-    font-size: 0.9rem;
+    display: none;
 }
 
 select {
-    max-width: 550px;
+    max-width: 270px;
+}
+
+form {
+    max-width: 270px
 }
 
 
@@ -136,6 +140,29 @@ select {
 
 .jump, .total {
     width: 470px;
+}
+.os-4 h2, 
+.os-4 p {
+    font-size: 1rem;
+}
+    .os-4 {
+        margin: 15px 0px;
+    }
+
+img {
+    max-width: 170px;
+    margin: 20px 20px 20px 30px;
+}
+
+select {
+    max-width: 550px;
+}
+
+.edit {
+    margin: 0px 450px;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    display: inline-block;
 }
 }
 
