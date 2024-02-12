@@ -1,14 +1,14 @@
 .welcome {
     background: url("../images/header1.png") no-repeat;
-    min-height: 800px;
+    min-height: 450px;
     background-size: cover;
     font-weight: bold;
 }
 
 .welcome_content {
-    position: absolute;
-    top: 225px;
-    left: 75px;
+    position: relative;
+    top: 70px;
+    left: 76px;
     right: 500px;
 }
 
@@ -31,28 +31,28 @@
 
 .text h2 {
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 1.4em;
     margin-bottom: 0px;
 }
 
 .text p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-top: 4px;
 }
 
-.mw img,
-.mw img {
+.mw1, .mw2, .mw3 {
+    margin-bottom: 40px;
+}
+
+.mw1 img,
+.mw3 img {
     max-width: 720px;
     margin: 0px 5px 20px 0px;
 }
 
 .gender {
     display: flex;
-    align-items: center;
-}
-
-.mw {
-    display: block;
+    flex-direction: column;
 }
 
 .news {
@@ -62,6 +62,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    display: flow;
 }
 
 .news h3 {
@@ -84,23 +85,27 @@
     margin-left: 16px;
 }
 
-.mw .cta {
+.mw2, .mw4 .cta {
     margin: 0px 0px 0px 300px;
 }
 
 .explore {
-    display: flex;
+    display: flow;
 }
 
 .adventure img {
     float: left;
     max-width: 425px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     flex: 1;
 }
 
 .adventure {
-    margin: 200px 0px 100px 40px;
+    margin-left: 150px;
+}
+
+.adventure h4 {
+    display: none;
 }
 
 .explore h4 {
@@ -108,8 +113,8 @@
 }
 
 .explore h3 {
-    position: absolute;
-    margin: 140px 40px;
+    position: relative;
+    margin: 40px 40px;
     font-size: 1.5rem;
 }
 
@@ -119,6 +124,7 @@
     background: #F4F3F3;
     padding-bottom: 9rem;
     padding-top: 9rem;
+    margin-top: 900px;
 }
 
 .su-text {
@@ -151,6 +157,10 @@
 .text h2,
 .adventure h4 {
     text-transform: uppercase;
+}
+
+.gender .cta {
+    padding: 10px 40px;
 }
 
 
