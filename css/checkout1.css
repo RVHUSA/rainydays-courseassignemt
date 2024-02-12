@@ -10,7 +10,7 @@
 }
 
 .checkout {
-    margin-left: 30px;
+    margin: 30px;
     display: flex;
     flex-direction: column-reverse;
     font-size: 0.9rem;
@@ -135,6 +135,10 @@ select {
     form {
         max-width: 540px;
     }
+
+    .selected {
+        max-width: 540px;
+    }
 }
 
 @media (min-width: 750px) {
@@ -246,9 +250,6 @@ form {
     font-size: 1.3rem;
 }
 
-    select {
-        max-width: 540px;
-    }
 }
 }
 

@@ -30,8 +30,9 @@
     max-width: 40px;
     margin: 12px 15px 12px 0px;
     text-align: center;
-    padding: 10px 20px;
+    padding: 6px 16px;
 }
+
 
 .cta-size:hover {
     color: #fff;
@@ -44,7 +45,7 @@
     border: 2px solid;
 }
 
-.product-info h2 {
+.product-info2 h2 {
     text-transform: uppercase;
 }
 
@@ -53,34 +54,34 @@
     margin-bottom: 20px;
 }
 
+
 .cta-product {
     text-decoration: none;
-    padding: 15px 125px;
+    padding: 15px 105px;
     border-radius: 8px;
 }
 
 .product-specific {
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-img {
-    width: 400px;
+.product-specific-details {
+    margin-left: 15px;
 }
 
-.product-info img {
+img {
+    width: 250px;
+}
+
+.product-info1 img {
     border-radius: 8px;
     background-color: #F4F3F3;
-    margin: 10px;
+    margin: 30px 10px;
     padding: 20px;
     align-items: center;
-}
-
-.product-info,
-.product-specific_details {
-    max-width: 500px;
-    padding: 100px 50px 50px 0px;
 }
 
 .color-flex {
@@ -88,16 +89,16 @@ img {
 }
 
 .description {
-    margin-top: 90px;
+    margin: 90px 20px;
 }
 
 .product-specific h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 18px;
 }
 
 .product-specific h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: bolder;
     margin: 0;
 }
@@ -112,12 +113,12 @@ img {
 }
 
 .reviews p {
-    font-size: 0.9rem;
+    font-size: 0.5rem;
 }
 
 .price p {
     font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-top: 0;
 }
 
@@ -147,3 +148,56 @@ ul {
 .bold {
     font-weight: bolder;
 }
+
+.product-info1 {
+    order: -1;
+}
+
+
+
+/* Media */
+
+@media (min-width: 700px) {
+
+    .product-specific {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.product-info1 {
+    order: 0;
+}
+
+img {
+    width: 400px;
+}
+
+.product-specific h1 {
+    font-size: 1.2rem;
+}
+
+.product-specific h2,
+.price p {
+    font-size: 1.6rem;
+}
+
+.reviews p {
+    font-size: 0.9rem;
+}
+
+.cta-size {
+    padding: 10px 20px;
+}
+
+.cta-product {
+    padding: 15px 125px;
+}
+
+}
+
+
+ 
+        
+@media (min-width: 1024px) {
+
+    }

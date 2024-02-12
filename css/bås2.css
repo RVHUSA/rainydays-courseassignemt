@@ -416,3 +416,158 @@ select {
     .jump, .total {
         width: 370px;
     }}
+
+
+
+
+    WP STORM JACKET FØR ENDRINGER I MEDIA QUERIES
+
+    .color1,
+.color2,
+.color3 {
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.color1 {
+    background: #6C686D;
+    margin: 0px 5px 0px 0px;
+}
+
+.color2 {
+    background: #002868;
+}
+
+.color3 {
+    background: #000;
+}
+
+.cta-size {
+    background-color: #F5F5F5;
+    color: #000;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+    max-width: 40px;
+    margin: 12px 15px 12px 0px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.cta-size:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.color1:hover,
+.color2:hover,
+.color3:hover {
+    border: 2px solid;
+}
+
+.product-info h2 {
+    text-transform: uppercase;
+}
+
+.size {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cta-product {
+    text-decoration: none;
+    padding: 15px 125px;
+    border-radius: 8px;
+}
+
+.product-specific {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+}
+
+.product-info img {
+    border-radius: 8px;
+    background-color: #F4F3F3;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+}
+
+.product-info,
+.product-specific_details {
+    max-width: 500px;
+    padding: 100px 50px 50px 0px;
+}
+
+.color-flex {
+    display: flex;
+}
+
+.description {
+    margin-top: 90px;
+}
+
+.product-specific h1 {
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+}
+
+.product-specific h2 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+}
+
+.fill-icons {
+    margin: 10px 10px 0px 0px;
+}
+
+.reviews p {
+    font-size: 0.9rem;
+}
+
+.price p {
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+
+.color {
+    margin-top: 50px;
+}
+
+.text-size {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.details {
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+.details1 {
+    margin: 2px 0px;
+}
+
+ul {
+    padding: 0px 15px;
+}
+
+.bold {
+    font-weight: bolder;
+}
