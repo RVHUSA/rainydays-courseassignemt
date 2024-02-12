@@ -33,17 +33,17 @@ select {
 
 .jacket-list {
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 350px 350px 350px 350px;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 250px 250px 270px 250px;
     grid-gap: 0px;
     margin: 20px 20px 20px 20px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     justify-content: space-evenly;
 }
 
 .jackets img,
 .product_image {
-    width: 120px;
+    width: 100px;
     height: auto;
     grid-column: -1/1;
     align-items: center;
