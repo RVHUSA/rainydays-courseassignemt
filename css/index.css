@@ -4,7 +4,7 @@
     font-weight: bold;
     display: table-cell;
     height: 200px;
-    width: 320px;
+    width: 340px;
 }
 
 .welcome_content {
@@ -15,8 +15,9 @@
 }
 
 .welcome_content h1 {
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: bold;
+    margin: 0px;
 }
 
 .welcome-text,
@@ -28,24 +29,24 @@
     background-color: #fff;
     color: #000;
     text-align: center;
-    margin: 60px;
+    margin: 20px;
 }
 
 .text h2 {
     font-weight: bolder;
-    font-size: 1.4em;
+    font-size: 0.7em;
     margin-bottom: 0px;
 }
 
 .text p {
-    font-size: 1rem;
+    font-size: 0.6rem;
     margin-top: 4px;
 }
 
 
 .mw1 img,
 .mw3 img {
-    max-width: 320px;
+    max-width: 340px;
     margin: 0px 5px 20px 0px;
 }
 
@@ -88,8 +89,12 @@
     margin-left: 16px;
 }
 
-.mw2, .mw4 .cta {
-    margin: 30px 70px;
+.mw2 {
+    margin: 30px 100px;
+}
+
+.mw4 .cta {
+margin: 30px 90px
 }
 
 .mw3 {
@@ -143,7 +148,7 @@
 .sign-up form {
     max-width: 600px;
     text-align: left;
-    margin: auto;
+    margin-left: 20px;
 }
 
 .sign-up h4 {
@@ -187,3 +192,158 @@
     display: none;
 }
 
+
+@media (min-width: 1024px) {
+    .welcome {
+        background: url("../images/header1.png") no-repeat;
+        min-height: 800px;
+        background-size: cover;
+        font-weight: bold;
+    }
+    
+    .welcome_content {
+        position: absolute;
+        top: 225px;
+        left: 75px;
+        right: 500px;
+    }
+    
+    .welcome_content h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    
+    .welcome-text,
+    .order-text {
+        display: block;
+    }
+    
+    .text {
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        margin: 60px;
+    }
+    
+    .text h2 {
+        font-weight: bolder;
+        font-size: 2em;
+        margin-bottom: 0px;
+    }
+    
+    .text p {
+        font-size: 1.3rem;
+        margin-top: 4px;
+    }
+    
+    .mw1 img,
+    .mw3 img {
+        max-width: 720px;
+        margin: 0px 5px 20px 0px;
+    }
+    
+    .gender {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .news {
+        background-image: url("../images/news.png");
+        background-repeat: no-repeat;
+        min-height: 700px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flow;
+    }
+    
+    .news h3 {
+        font-weight: bold;
+        font-size: 1.7rem;
+        margin: 130px 0px 20px 0px;
+        padding: 100px 50px 0px 50px;
+    }
+    
+    .news .cta {
+        float: left;
+        margin: 10px;
+    }
+    
+    .news a.cta {
+        margin-left: 50px;
+    }
+    
+    .news a.cta.cta-w {
+        margin-left: 16px;
+    }
+    
+    .mw2, .mw4 .cta {
+        margin: 0px 0px 0px 300px;
+    }
+    
+    .explore {
+        display: flex;
+    }
+    
+    .adventure img {
+        float: left;
+        max-width: 425px;
+        margin-bottom: 10px;
+        flex: 1;
+    }
+    
+    .adventure {
+        margin: 200px 0px 100px 40px;
+    }
+    
+    .explore h4 {
+        text-align: center;
+    }
+    
+    .explore h3 {
+        position: absolute;
+        margin: 140px 40px;
+        font-size: 1.5rem;
+    }
+    
+    .sign-up {
+        color: #000;
+        text-align: center;
+        background: #F4F3F3;
+        padding-bottom: 9rem;
+        padding-top: 9rem;
+    }
+    
+    .su-text {
+        background-color: #F4F3F3;
+    }
+    
+    .su-text,
+    .sign-up form {
+        max-width: 600px;
+        text-align: left;
+        margin: auto;
+    }
+    
+    .sign-up h4 {
+        margin-bottom: 0px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    
+    .su-text p {
+        margin-top: 2px;
+    }
+    
+    .sign-up p {
+        margin-bottom: 0px;
+    }
+    
+    .pushing-tcz h2,
+    .welcome h1,
+    .text h2,
+    .adventure h4 {
+        text-transform: uppercase;
+    }
+
+}
